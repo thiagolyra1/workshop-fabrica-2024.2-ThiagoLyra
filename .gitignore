@@ -130,6 +130,9 @@ ENV/
 env.bak/
 venv.bak/
 
+# Pasta static_files
+static_files
+
 # Spyder project settings
 .spyderproject
 .spyproject
