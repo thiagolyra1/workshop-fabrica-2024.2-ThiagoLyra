@@ -1,0 +1,18 @@
+<!--Utilizando a base.html como base dessa página de html -->
+{% extends "global/base.html" %}
+{% block texto %} {{ text }} {% endblock texto %}
+
+{% block texto2 %}
+<div class="hometextos">
+    <h2>Clique nos botões abaixo para explorar as funcionalidades do projeto: um leva você aos dados consumidos da API e o outro ao CRUD simples. Aproveite para navegar pelas views e explorar cada recurso! Você também pode utilizar o menu na parte superior para navegar pelo projeto.</h2>
+
+    <div class="botoes">
+        <a href="{% url "posts:home" %}">
+            <button class="button1">View Posts</button>
+         </a>
+         <a href="#">
+            <button class="button2">View CRUD</button>
+         </a>
+    </div>
+</div>
+{% endblock texto2 %}
