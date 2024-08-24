@@ -23,9 +23,14 @@ Passos e comandos
 
 6. Coletar os arquivos staticos -> python manage.py collectstatic
 
-7. Criar novas migrações com base nas alterações feitas nos modelos: -> python manage.py makemigrations
+7. Instalar mysqlclient -> pip install mysqlclient
+8. Criar database no sql (utilizei o workbench) -> create database teste;
+9. Usar essa database criada -> use teste;
+10. **LEMBRAR DE CONFIGURAR NO settings.py SUA PORTA/USUÁRIO/SENHA.**
 
-8. Aplicar e cancelar a aplicação de migrações: -> python manage.py migrate
+11. Criar novas migrações com base nas alterações feitas nos modelos: -> python manage.py makemigrations
 
-9. Rodar o servidor: python manage.py runserver
+12. Aplicar e cancelar a aplicação de migrações: -> python manage.py migrate
+
+13. Rodar o servidor: python manage.py runserver
 
