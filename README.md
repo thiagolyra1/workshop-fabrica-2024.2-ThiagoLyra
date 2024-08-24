@@ -8,6 +8,10 @@ Python 3.11.2 - Django 5.1
 
 Essa é uma aplicação django que permite que os usuários visualizem dados obtidos de uma API externa, enquanto as operações de CRUD são realizadas exclusivamente no app "Estudantes". Esse projeto oferece uma interface intuitiva e interativa para facilitar o acesso e a manipulação de informações, garantindo uma experiência de usuário fluida e responsiva em diferentes dispositivos. Infelizmente não consegui autenticar com o JWT, até cheguei a instalar e configurar, mas não soube como acessar com o token. E o Docker eu cheguei a dar uma breve pesquisada, mas de primeira vista parecia um processo longo e por não ter tanto tempo, optei por não implementar esse diferencial.
 
+# Breve vídeo mostrando o projeto funcioando - 3min
+
+https://www.youtube.com/watch?v=Y9nXZ3QMU0Q
+
 # Tutorial para executar a plicação
 Passos e comandos
 
