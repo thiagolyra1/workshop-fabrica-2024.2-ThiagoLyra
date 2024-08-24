@@ -1,7 +1,9 @@
 <body>
+<!--Incluiondo os códigods das partials. -->
 {% include "global/partials/head.html" %}
 {% include "global/partials/menu.html" %}
 
+<!--Caso a view tenha o "text:" no context, será exibido o bloco de cada página -->
 {% if  text %}
     <h1>{% block texto %}{% endblock texto %}</h1>
 {% endif %}

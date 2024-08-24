@@ -1,9 +1,13 @@
+<!--Utilizando a base.html como base dessa página de html -->
 {% extends "global/base.html" %}
 
 {% block texto %} {{ text }} {% endblock texto %}
 
+
 {% block posts %}
+    <!--Iterando todos os posts e pegando só as variáveis "título" e o "corpo". -->
     {% for post in posts %}
+        <!--Incluindo os códigods da partials com os blocos dos posts consumidos. -->
         {% include "global/partials/blocospost.html" %}
     {% endfor %}
     

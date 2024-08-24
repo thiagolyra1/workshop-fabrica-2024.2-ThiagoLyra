@@ -2,10 +2,10 @@ from django.urls import path
 from . import views
 
 
-# Dando um nome para nomear esse app daqui e quando for direcionar ter que colocar o posts/name. Com isso não conflitar com outras htmls
+# Nomeando esse app  para quando for direcionar ter que colocar o posts/name. Com isso não conflitar com outros arquivos htmls, caso tenha o mesmo nome em outro app
 app_name = 'home'
 
-# página inicial  
+# página inicial, pois está configurando com o path('') também na urls do project  
 urlpatterns = [
     path('', views.home, name="home"),
 ]
