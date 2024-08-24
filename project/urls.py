@@ -17,7 +17,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-# Criando os caminhos https e incluindo as urls de cada app.
+# Criando os caminhos e incluindo as urls de cada app.
 urlpatterns = [
     path('', include("home.urls")),
     path('posts/', include('posts.urls')),

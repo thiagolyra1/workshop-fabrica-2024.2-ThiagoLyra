@@ -1,6 +1,6 @@
 from django.db import models
 
-# Create your models here.
+# Criando o model para o CRUD.
 class Estudante(models.Model):
     id = models.BigAutoField(primary_key=True)
     nome = models.CharField(max_length=255)
